@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: khaki;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        Geneva,
+        Verdana,
+        sans-serif;
+}
+
+.header-title {
+    font-size: 28px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 80px;
+    background-color: khaki;
+    flex: 1 1 auto;
+}
+
+.board-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.board-button {
+    padding: 15px;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gods-img {
+    height: 300px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 80px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.gods {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.god-img {
+    border: 2px solid khaki;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-bottom: 3px;
+}
+
+.god1 .god-img {
+    background-image: url("./images/zeus.jpg");
+}
+
+.god2 .god-img {
+    background-image: url("./images/poseindon.jpg");
+}
+
+.god3 .god-img {
+    background-image: url("./images/hades.jpg");
+}
+
+.god4 .god-img {
+    background-image: url("./images/adamas.jpg");
+}
+
+.main-text {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
